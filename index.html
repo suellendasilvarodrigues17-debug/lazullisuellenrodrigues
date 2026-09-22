@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>L'azulli | Beleza & Estilo</title>
+
+  <meta
+    name="description"
+    content="L'azulli - Bolsas, Maquiagens, Skin Care e Acessórios em Paranoá, Brasília - DF."
+  >
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
+
+  <style>
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+
+      background: linear-gradient(
+        135deg,
+        #ffffff,
+        #f5f0e6
+      );
+
+      text-align: center;
+      color: #172b52;
+    }
+
+
+    /* CABEÇALHO */
+
+    header {
+      background: #172b52;
+      color: white;
+
+      padding: 35px 20px;
+
+      box-shadow:
+        0 5px 15px rgba(0,0,0,0.18);
+    }
+
+
+    .logo {
+      width: 65px;
+      height: 65px;
+
+      margin: 0 auto 12px;
+
+      border-radius: 50%;
+
+      background: #172b52;
+
+      border: 2px solid #d1b36b;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      font-family: Georgia, serif;
+
+      font-size: 30px;
+      font-weight: bold;
+
+      color: #d9c184;
+
+      box-shadow:
+        0 3px 12px rgba(0,0,0,0.2);
+    }
+
+
+    header h1 {
+      margin: 0;
+
+      font-size: 32px;
+
+      font-weight: 700;
+
+      color: #ffffff;
+    }
+
+
+    header p {
+      margin: 8px 0 0;
+
+      font-size: 15px;
+
+      color: #e5d5a7;
+    }
+
+
+    /* CONTEÚDO */
+
+    .container {
+      max-width: 650px;
+
+      margin: auto;
+
+      padding: 55px 20px;
+    }
+
+
+    .titulo {
+      color: #172b52;
+
+      font-size: 25px;
+
+      margin-bottom: 30px;
+    }
+
+
+    /* BOTÕES */
+
+    .btn {
+      display: block;
+
+      width: 100%;
+
+      max-width: 400px;
+
+      margin: 15px auto;
+
+      padding: 17px 20px;
+
+      border-radius: 35px;
+
+      text-decoration: none;
+
+      font-size: 16px;
+
+      font-weight: 600;
+
+      transition: 0.25s;
+
+      box-shadow:
+        0 4px 10px rgba(0,0,0,0.10);
+    }
+
+
+    .btn:hover {
+      transform: translateY(-2px);
+
+      box-shadow:
+        0 7px 15px rgba(0,0,0,0.15);
+    }
+
+
+    /* LOJA */
+
+    .btn-loja {
+      background: #172b52;
+
+      color: white;
+    }
+
+
+    /* WHATSAPP */
+
+    .btn-whatsapp {
+      background: #25D366;
+
+      color: white;
+    }
+
+
+    /* MAPA */
+
+    .btn-mapa {
+      background: #d1b36b;
+
+      color: #172b52;
+    }
+
+
+    /* INFORMAÇÕES */
+
+    .informacoes {
+
+      max-width: 400px;
+
+      margin: 40px auto 0;
+
+      padding: 25px;
+
+      background: white;
+
+      border-radius: 18px;
+
+      border: 1px solid #e5dccb;
+
+      box-shadow:
+        0 4px 15px rgba(0,0,0,0.06);
+    }
+
+
+    .informacoes h2 {
+
+      margin-top: 0;
+
+      color: #172b52;
+
+      font-size: 20px;
+    }
+
+
+    .informacoes p {
+
+      color: #666;
+
+      font-size: 14px;
+
+      line-height: 1.8;
+    }
+
+
+    /* RODAPÉ */
+
+    footer {
+
+      margin-top: 30px;
+
+      padding: 25px 20px;
+
+      background: #172b52;
+
+      color: white;
+    }
+
+
+    footer strong {
+
+      color: #d9c184;
+
+      font-size: 18px;
+    }
+
+
+    footer p {
+
+      margin: 7px 0 0;
+
+      font-size: 12px;
+
+      opacity: 0.85;
+    }
+
+
+    /* WHATSAPP FLUTUANTE */
+
+    .whatsapp-float {
+
+      position: fixed;
+
+      bottom: 20px;
+
+      right: 20px;
+
+      width: 60px;
+
+      height: 60px;
+
+      border-radius: 50%;
+
+      background: #25D366;
+
+      color: white;
+
+      display: flex;
+
+      align-items: center;
+
+      justify-content: center;
+
+      text-decoration: none;
+
+      font-size: 28px;
+
+      box-shadow:
+        0 5px 15px rgba(0,0,0,0.2);
+    }
+
+
+    /* CELULAR */
+
+    @media (max-width: 600px) {
+
+      header h1 {
+        font-size: 27px;
+      }
+
+      header p {
+        font-size: 12px;
+      }
+
+      .container {
+        padding: 40px 18px;
+      }
+
+      .titulo {
+        font-size: 22px;
+      }
+
+      .btn {
+        font-size: 15px;
+        padding: 16px;
+      }
+
+    }
+
+  </style>
+
+</head>
+
+
+<body>
+
+
+  <!-- CABEÇALHO -->
+
+  <header>
+
+    <div class="logo">
+      L
+    </div>
+
+    <h1>L'azulli</h1>
+
+    <p>
+      Bolsas · Maquiagens · Skin Care · Acessórios
+    </p>
+
+  </header>
+
+
+
+  <!-- CONTEÚDO -->
+
+  <div class="container">
+
+    <h2 class="titulo">
+      Acesse nossas informações
+    </h2>
+
+
+    <!-- LOJA -->
+
+    <a
+      class="btn btn-loja"
+      href="https://lazullisuellenrodrigues.base44.app/"
+      target="_blank"
+    >
+      🛍️ Visitar Loja Online
+    </a>
+
+
+    <!-- WHATSAPP -->
+
+    <a
+      class="btn btn-whatsapp"
+      href="https://api.whatsapp.com/send?phone=5561995203365"
+      target="_blank"
+    >
+      💬 Falar no WhatsApp
+    </a>
+
+
+    <!-- MAPA -->
+
+    <a
+      class="btn btn-mapa"
+      href="https://www.google.com/maps/search/?api=1&query=Quadra+23+Conjunto+B+Lote+46+Parano%C3%A1+Bras%C3%ADlia+DF+71572-302"
+      target="_blank"
+    >
+      📍 Ver Localização
+    </a>
+
+
+
+    <!-- INFORMAÇÕES -->
+
+    <div class="informacoes">
+
+      <h2>
+        L'azulli
+      </h2>
+
+      <p>
+
+        <strong>Endereço</strong><br>
+
+        Quadra 23 Conjunto B Lote 46<br>
+
+        Paranoá, Brasília - DF<br>
+
+        CEP: 71572-302
+
+      </p>
+
+
+      <p>
+
+        <strong>WhatsApp</strong><br>
+
+        (61) 99520-3365
+
+      </p>
+
+    </div>
+
+  </div>
+
+
+
+  <!-- RODAPÉ -->
+
+  <footer>
+
+    <strong>L'azulli</strong>
+
+    <p>
+      Bolsas · Maquiagens · Skin Care · Acessórios
+    </p>
+
+    <p>
+      Paranoá · Brasília - DF
+    </p>
+
+  </footer>
+
+
+
+  <!-- WHATSAPP FLUTUANTE -->
+
+  <a
+    class="whatsapp-float"
+    href="https://api.whatsapp.com/send?phone=5561995203365"
+    target="_blank"
+    aria-label="WhatsApp"
+  >
+    💬
+  </a>
+
+
+</body>
+
+</html>
